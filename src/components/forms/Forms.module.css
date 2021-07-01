@@ -1,0 +1,71 @@
+.form {
+    padding-bottom: 15px;
+    border-bottom: 3px solid #f7f7f9;
+}
+
+.formGroup {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+
+.formControl, .formControlOutput {
+    display: flex;
+    width: 85%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.formControlOutput {
+    width: 100%;
+
+}
+
+.formControl:focus, .formControlOutput:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+.addButton {
+    padding-right: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 9px;
+}
+
+.header {
+    border-bottom: 3px solid #f7f7f9;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.titleIcon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #006ad9;
+    color: #fff;
+    line-height: 38px;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
