@@ -1,0 +1,16 @@
+{
+    "outputs" : [
+        {
+            "product": "Self-service solutions for startups",
+            "output": "sample output 1",
+            "unit3": "unite in year 3",
+            "unit5": "unite in year 5"
+        },
+        {
+            "product": "Impartial expert support for startups",
+            "output": "sample output 2",
+            "unit3": "sample in year 3",
+            "unit5": "sample in year 5"
+        }
+    ]   
+}
