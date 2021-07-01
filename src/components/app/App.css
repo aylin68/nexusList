@@ -1,0 +1,8 @@
+.app {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-items: space-around;
+    flex-direction: column;
+}
